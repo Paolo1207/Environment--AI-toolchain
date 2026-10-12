@@ -1,0 +1,55 @@
+---
+description: Core stack, structure, conventions, and git standards for this project
+alwaysApply: true
+---
+
+# Project
+
+Frontend capstone app (TypeScript strict mode). Use npm and current Node LTS.
+
+## Stack
+
+- **TypeScript** (strict mode)
+- **React 18** with **Vite**
+- **Tailwind CSS** for styling
+- **Vitest** + React Testing Library for tests
+
+## Commands
+
+- `npm install` — dependencies
+- `npm run dev` — dev server
+- `npm run build` — production build
+- `npm run test` — unit tests
+- `npm run lint` — lint
+
+## Source layout (`src/`)
+
+| Folder | Purpose |
+|--------|---------|
+| `components/` | Reusable UI components |
+| `pages/` | Route-level screens |
+| `hooks/` | Custom React hooks |
+| `lib/` | Helpers, API clients, utilities |
+| `types/` | Shared TypeScript types |
+| `styles/` | Global styles |
+
+Also: `assets/` (images, fonts, icons). Unit tests co-locate as `Component.test.tsx`; broader tests live in `tests/`.
+
+## Code conventions
+
+- Functional components and hooks only; no class components.
+- One component per file; PascalCase filenames (`SearchBar.tsx`).
+- Prefer **named exports** over default exports.
+- Keep components small; extract logic into hooks (`useThing.ts`).
+- No **`any`**; use `unknown` and narrow, or proper types.
+- Accessibility: semantic HTML, labels on inputs, visible focus states.
+
+## Git (Conventional Commits)
+
+Messages follow [Conventional Commits 1.0.0](https://www.conventionalcommits.org/): `type(scope): summary`.
+
+Allowed types: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`, `build`, `ci`.
+
+- Imperative mood; summary under 72 characters.
+- Small, focused commits; work on feature branches; keep `main` working.
+- Never commit secrets or `.env` files.
