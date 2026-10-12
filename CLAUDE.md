@@ -4,7 +4,7 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-Frontend capstone app for the Frontend AI Engineering track. Replace this line with a one-sentence description of the app once chosen.
+Frontend AI Engineering assignment. Replace this line with a one-sentence description of the app once chosen.
 
 ## Stack
 
