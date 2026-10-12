@@ -1,10 +1,13 @@
-# Capstone Project Name
+# Frontend AI Engineering Assignment
 
-> One-sentence pitch: what this app does and who it is for.
+**React 18 · TypeScript · Vite · Tailwind CSS · Vitest**
 
-## Status
+Assignment repository for the Frontend AI Engineering track: a production-style React frontend built with an AI-assisted workflow (Cursor / Claude Code) and documented conventions.
 
-Early setup. This repo currently contains only project scaffolding (FE-01).
+| | |
+| --- | --- |
+| **Stage** | FE-01 — scaffolding, license, `CLAUDE.md`, and Cursor rules |
+| **App** | Product name and demo link will be added when the UI is scaffolded |
 
 ## Planned Stack
 
