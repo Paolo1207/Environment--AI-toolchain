@@ -9,7 +9,7 @@ Frontend AI Engineering assignment. Replace this line with a one-sentence descri
 ## Stack
 
 - Language: TypeScript (strict mode)
-- Framework: React 18 with Vite
+- Framework: React 19 with Vite
 - Styling: Tailwind CSS
 - Testing: Vitest + React Testing Library
 - Package manager: npm

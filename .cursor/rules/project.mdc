@@ -10,7 +10,7 @@ Frontend AI Engineering assignment app (TypeScript strict mode). Use npm and cur
 ## Stack
 
 - **TypeScript** (strict mode)
-- **React 18** with **Vite**
+- **React 19** with **Vite**
 - **Tailwind CSS** for styling
 - **Vitest** + React Testing Library for tests
 

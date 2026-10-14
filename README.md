@@ -1,6 +1,6 @@
 # Frontend AI Engineering Assignment
 
-**React 18 · TypeScript · Vite · Tailwind CSS · Vitest**
+**React 19 · TypeScript · Vite · Tailwind CSS · Vitest**
 
 Assignment repository for the Frontend AI Engineering track: a production-style React frontend built with an AI-assisted workflow (Cursor / Claude Code) and documented conventions.
 
